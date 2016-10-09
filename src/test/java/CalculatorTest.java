@@ -1,4 +1,5 @@
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
@@ -37,6 +38,6 @@ public class CalculatorTest {
     public void testShouldThrowException() {
         Calculator calculator = new Calculator();
 
-        Double actual = calculator.sum(null, 5.);
+        calculator.sum(null, 5.);
     }
 }
